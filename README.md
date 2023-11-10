@@ -5,11 +5,16 @@ For now, it grabs the data from the following websites:
 - [turbo.az](https://turbo.az)
 ## Installing
 A step-by-step guide to install and use the bot
-1. Install the requirements
+1. Clone the project
+```
+https://github.com/shamkhall/my-num-bot
+```
+
+2. Install the requirements
 ```
 pip install -r requirements.txt
 ```
-2. Start the project
+3. Start the project
 ```
 python main.py
 ```
