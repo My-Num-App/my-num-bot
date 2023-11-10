@@ -7,7 +7,7 @@ For now, it grabs the data from the following websites:
 A step-by-step guide to install and use the bot
 1. Clone the project
 ```
-https://github.com/shamkhall/my-num-bot
+git clone https://github.com/shamkhall/my-num-bot
 ```
 
 2. Install the requirements
