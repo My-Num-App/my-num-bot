@@ -3,6 +3,10 @@
 **my-num-bot** is a bot to scrape phone numbers.
 For now, it grabs the data from the following websites:
 - [turbo.az](https://turbo.az)
+## Required
+* Python
+* MongoDB
+
 ## Installing
 A step-by-step guide to install and use the bot
 1. Clone the project
