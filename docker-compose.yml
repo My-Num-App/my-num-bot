@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  my-num-mongo:
+    container_name: my-num-mongo
+    volumes:
+      - /my-num-bot:/data/db
+    image: mongo:latest
+    networks:
+      - my-num-network
+
+  my-num-bot:
+    build:
+      dockerfile: Dockerfile
+    container_name: my-num-bot
+    depends_on:
+      - my-num-mongo
+    networks:
+      - my-num-network
+
+networks:
+  my-num-network:
+    driver: bridge
