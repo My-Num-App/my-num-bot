@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: my-num-bot
     depends_on:
-      - my-num-mongo
+      - mongo-db
     networks:
       - my-num-network
 
